@@ -6,7 +6,7 @@ import java.io.Serializable;
  * Produz mensagens para serem consumidas
  */
 public interface Producer extends Serializable {
-
+    
     /**
      * Adiciona o tópico na lista de tópicos
      * @param topic topico

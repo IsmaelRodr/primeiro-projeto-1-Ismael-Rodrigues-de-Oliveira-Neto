@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75400c88-ebd6-4621-bbcd-cc5c49de323a" name="Changes" comment="" />
+    <list default="true" id="75400c88-ebd6-4621-bbcd-cc5c49de323a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/datastructures/interfaces/impl/LinkedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/repository/MessageRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/FastDeliveryItems/FastDeliveryItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/FastDeliveryItems/consumer/FastDeliveryConsummer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/FastDeliveryItems/producer/FoodDeliveryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/FastDeliveryItems/producer/PhysicPersonDeliveryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/LongDistanceItems/LongDistanceItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/LongDistanceItems/consumer/LongDistanceConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/LongDistanceItems/producer/FastDeliveryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/impl/topics/LongDistanceItems/producer/PyMarketPlaceProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/datastructures/interfaces/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/datastructures/interfaces/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/MessageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/manga-rosa-message-queue/src/main/java/br/com/mangarosa/messages/interfaces/Producer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2mRd2cB4AqPs5YoBVDzxAPGAIyR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,10 +38,19 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lasilva/Documents/GitHub/manga-rosa-message-queue"
+    "last_opened_file_path": "C:/Users/ismae/Documents/GitHub/primeiro-projeto-1-Ismael-Rodrigues-de-Oliveira-Neto/manga-rosa-message-queue",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ismae\Documents\GitHub\primeiro-projeto-1-Ismael-Rodrigues-de-Oliveira-Neto\manga-rosa-message-queue" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

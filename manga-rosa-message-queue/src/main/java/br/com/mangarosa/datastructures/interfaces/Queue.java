@@ -1,5 +1,6 @@
 package br.com.mangarosa.datastructures.interfaces;
 
+
 /**
  * A fila do tipo T
  * @param <T> um tipo de dados

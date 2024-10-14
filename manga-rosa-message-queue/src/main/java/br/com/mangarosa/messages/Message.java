@@ -3,6 +3,7 @@ package br.com.mangarosa.messages;
 import br.com.mangarosa.messages.interfaces.Consumer;
 import br.com.mangarosa.messages.interfaces.Producer;
 
+import java.time.Duration;
 import java.io.Serializable;
 import java.lang.reflect.Field;
 import java.time.LocalDateTime;
@@ -14,7 +15,7 @@ import java.util.Map;
 /**
  * Messagem para ser processada
  */
-public class Message implements Serializable {
+public class Message implements Serializable, Comparable<Message>{
 
     private String id;
     private Producer producer;
@@ -22,6 +23,9 @@ public class Message implements Serializable {
     private final List<MessageConsumption> consumptionList;
     private boolean isConsumed;
     private String message;
+
+    private final Duration TimeDuration = Duration.ofMinutes(5) ; 
+
 
     public Message(Producer producer, String message){
         setProducer(producer);
@@ -68,7 +72,23 @@ public class Message implements Serializable {
      * @return o horário que foi criado
      */
     public LocalDateTime getCreatedAt() {
-        return createdAt;
+        return createdAt; 
+    }
+
+   /**
+     * Verifica se o objeto está expirado.
+     * 
+     * Este método calcula o tempo de expiração com base na data de criação 
+     * do objeto e uma duração especificada. Ele compara o tempo atual 
+      * de expiração, o objeto é considerado expirado.
+     * 
+     * @return true se o objeto estiver expirado, false caso contrário.
+    */
+    public boolean isExpired() {
+    // Calcula o tempo de expiração adicionando a duração ao tempo de criação.
+    LocalDateTime expirationTime = createdAt.plus(TimeDuration);
+    // Verifica se o tempo atual é posterior ao tempo de expiração.
+    return LocalDateTime.now().isAfter(expirationTime);
     }
 
     /**
@@ -124,4 +144,15 @@ public class Message implements Serializable {
         }
         return map;
     }
-}
+
+
+    @Override
+    public int compareTo(Message arg0) {
+    if (arg0 == null) {
+        return 1; // Se o outro é null, this é considerado maior
+    }
+    return this.id.compareTo(arg0.id); // Compara pelos IDs
+    }
+ }
+
+

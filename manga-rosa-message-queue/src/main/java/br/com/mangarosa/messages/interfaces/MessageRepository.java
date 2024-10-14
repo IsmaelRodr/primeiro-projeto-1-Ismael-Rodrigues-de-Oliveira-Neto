@@ -31,13 +31,5 @@ public interface MessageRepository {
      * @return uma lista com todas as mensagens não consumidas
      */
     List<Message> getAllNotConsumedMessagesByTopic(String topic);
-
-    /**
-     * Retorna todas as mensagens consumidas em um tópico e que ainda não foram expiradas.
-     * Se um tópico não existir, uma exceção deve ser lançada.
-     * @param topic nome do tópico
-     * @return uma lista com todoas as mensagens consumidas.
-     */
-    List<Message> getAllConsumedMessagesByTopic(String topic);
-
+    
 }
