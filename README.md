@@ -1,6 +1,6 @@
 # Manga Rosa
 
-<img src = "https://www.researchgate.net/publication/335860440/figure/fig1/AS:804098584612864@1568723450072/Message-queueing-asynchronous-communication-model-Producers-send-messages-that-are.png">
+<img src = "https://www.researchgate.net/publication/335860440/figure/fig1/AS:804098584612864@1568723450072/Message-queueing-asynchronous-communication-model-Producers-send-messages-that-are.png"/>
 
 ## Visão Geral
 
